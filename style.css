@@ -1,0 +1,86 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    padding: 40px;
+    width: 1280px;
+    height: 1399px;
+    background: #f5f7fa;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 1200px;
+    height: 1319px;
+    left: 40px;
+    top: 40px;
+}
+
+/* secondary side of doc. */
+aside {
+    background-color: #1e2939;
+    width: 370px;
+}
+.cvPhoto {
+    margin-top: 20px;
+}
+.headerSecondary {
+    color: #ffffff;
+}
+.listSecondaryItem {
+    color: #ffffff;
+}
+.paragraphContacts {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+}
+.listSecondary {
+    color: #fb6d3a;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-position: inside;
+}
+.blockAside {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+/* .block_techSkills {
+    margin-top: 51px;
+    margin-left: 40px;
+} */
+
+.fontBold {
+    font-weight: 700;
+    padding-right: 5px;
+}
+.fontOppacityHalf {
+    opacity: 0.5;
+}
+
+/* Primary side of doc. */
+.blockMainName {
+    margin-top: 102px;
+    margin-left: 88px;
+    margin-right: 342px;
+}
+.blockMain {
+    margin-top: 40px;
+    margin-left: 88px;
+}
+.headerPrimary {
+    color: #000000;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+.paragraphPrimary {
+    color: #595959;
+}
+.listPrimary {
+    color: #000000;
+}
