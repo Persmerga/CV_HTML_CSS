@@ -25,62 +25,145 @@ aside {
     background-color: #1e2939;
     width: 370px;
 }
+
 .cvPhoto {
     margin-top: 20px;
 }
+
 .headerSecondary {
     color: #ffffff;
 }
-.listSecondaryItem {
-    color: #ffffff;
-}
+
 .paragraphContacts {
     color: #ffffff;
     font-size: 14px;
     line-height: 24px;
 }
+
+.listSecondaryItem {
+    color: #ffffff;
+}
+
 .listSecondary {
     color: #fb6d3a;
     padding-left: 0;
     margin-left: 0;
     list-style-position: inside;
 }
+
 .blockAside {
     margin-top: 51px;
     margin-left: 40px;
 }
-/* .block_techSkills {
-    margin-top: 51px;
-    margin-left: 40px;
-} */
 
 .fontBold {
     font-weight: 700;
     padding-right: 5px;
 }
+
 .fontOppacityHalf {
     opacity: 0.5;
 }
 
 /* Primary side of doc. */
-.blockMainName {
-    margin-top: 102px;
-    margin-left: 88px;
-    margin-right: 342px;
-}
-.blockMain {
+main {
     margin-top: 40px;
     margin-left: 88px;
 }
-.headerPrimary {
-    color: #000000;
+
+.blockMainName {
+    width: 400px;
+    height: 230px;
+    left: 498px;
+    top: 142px;
+    margin-bottom: 40px;
+}
+
+h1 {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
+    margin-bottom: 24px;
 }
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
 .paragraphPrimary {
     color: #595959;
 }
-.listPrimary {
-    color: #000000;
+
+.blockProjects {
+    margin-bottom: 51px;
+}
+
+.listProjects {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.listProjectsItem {
+    font-weight: 400;
+    color: #595959;
+    text-decoration: none;
+}
+
+.blockWork1 {
+    margin-bottom: 20px;
+    width: 525px;
+}
+
+.listWork {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.listWorkItem {
+    font-weight: 400;
+    color: #595959;
+    text-decoration: none;
+}
+
+.blockWork2 {
+    width: 525px;
+    margin-bottom: 20px;
+}
+
+.blockWork3 {
+    width: 525px;
+    margin-bottom: 43px;
+}
+
+.blockEdu {
+    margin-bottom: 107px;
+}
+
+.highlight {
+    color: #fb6d3a;
+}
+
+.workTime {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
 }
