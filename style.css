@@ -30,7 +30,7 @@ body {
     margin-top: 40px;
 }
 
-/* Header and language changer */
+/* Header and language menu */
 header {
     background-color: #f2f2f2;
     height: 110px;
@@ -231,6 +231,11 @@ aside {
     width: 100%;
     margin-top: 20px;
 }
+.callPhoto {
+    width: 50%;
+    margin-top: 20px;
+    opacity: 0.5;
+}
 .headerSecondary {
     color: #ffffff;
 }
@@ -258,4 +263,26 @@ aside {
 }
 .fontOppacityHalf {
     opacity: 0.5;
+}
+.RODO_Container {
+    width: 1080px;
+}
+.RODO {
+    margin-top: 20px;
+    margin-left: auto;
+    justify-self: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1e2939;
+}
+.RODO_eng {
+    width: 1080px;
+    margin-top: 20px;
+    margin-left: auto;
+    justify-self: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1e2939;
 }
