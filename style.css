@@ -24,7 +24,7 @@ body {
     background-color: #ffffff;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
-    width: 1200px;
+    width: 1250px;
     height: auto;
     margin-left: 40px;
     margin-top: 40px;
@@ -227,6 +227,7 @@ h4 {
 aside {
     background-color: #1e2939;
     width: 370px;
+    padding-left: 40px;
 }
 .cvPhoto {
     width: 100%;
